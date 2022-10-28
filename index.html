@@ -1,0 +1,834 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   </head>
+   <body>
+      <section>
+         <div class="header_section">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8">
+                     <div class="Aviation_heading">
+                        <p>Welcome to<span> AVIATION PARTS</span> Online Shopping Store</p>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="Aviation_account">
+                     <select name="cars" id="cars">
+					  <option value="volvo">My Account</option>
+					  <option value="saab">Saab</option>
+					  <option value="mercedes">Mercedes</option>
+					  <option value="audi">Audi</option>
+					</select>
+<!-- 					<p class="myaccount"><i class="fa-solid fa-user"></i><span>My Account</span></p>
+ -->					<p><i class="fa-solid fa-user"></i><span>English</span></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="logo_section">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-3">
+                     <div class="logo">
+                        <figure>
+                           <img src="assets/images/logo.png">
+                        </figure>
+                     </div>
+                  </div>
+                  <div class="col-md-5">
+                     <div class="input-group">
+                        <div class="form-outline">
+                           <input type="search" placeholder="Search Entire Store Here....." id="form1" class="form-control" />
+                        </div>
+                        <button type="button" class="btn btn-1">
+                        <i class="fas fa-search"></i>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="shopping-icon">
+                        <p><i class="fa-solid fa-heart"></i></p>
+                        <p><i class="fa-solid fa-heart"></i><span>$501</span></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="navbar_section" id="myHeader">
+            <nav class="navbar navbar-expand-lg navbar-light">
+               <div class="container">
+                  <div class="dropdown">
+                     <button class="btn btn-2 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                     <i class="fa-solid fa-bars"></i>Browse Categories
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Categories One</a></li>
+                        <li><a class="dropdown-item" href="#">Categories Two</a></li>
+                        <li><a class="dropdown-item" href="#">Categories Three</a></li>
+                     </ul>
+                  </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Home
+                           </a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li>
+                                 <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Shop
+                           </a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li>
+                                 <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Page
+                           </a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li>
+                                 <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Blog
+                           </a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li>
+                                 <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#" tabindex="-1">ContactUs</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="contact-information">
+                     <p><i class="fa-solid fa-phone"></i>1234 &nbsp;456 &nbsp;789</p>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </section>
+      <section>
+         <!-- Carousel -->
+         <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+               <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+               <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="assets/images/Slide1.png" alt="New York" class="d-block" style="width:100%">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                           <h5>BLACK FRIDAY.</h5>
+                           <h1>Aviation Parts <br>
+                              Sale 50% Off
+                           </h1>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                           <a class="btn btn-3" href="#" role="button">Shopping Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="assets/images/Slide1.png" alt="New York" class="d-block" style="width:100%">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                           <h5>BLACK FRIDAY.</h5>
+                           <h1>Aviation Parts <br>
+                              Sale 50% Off
+                           </h1>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                           <a class="btn btn-3" href="#" role="button">Shopping Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="assets/images/Slide1.png" alt="New York" class="d-block" style="width:100%">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                           <h5>BLACK FRIDAY.</h5>
+                           <h1>Aviation Parts <br>
+                              Sale 50% Off
+                           </h1>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                           <a class="btn btn-3" href="#" role="button">Shopping Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      </section>
+      <section>
+      <div class="Shipping">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-3">
+      <div class="payment">
+      <div class="row">
+      <div class="col-2">
+      <div class="travels-icon">
+      <i class="fa-solid fa-truck-moving"></i>
+      </div>
+      </div>
+      <div class="col-10">
+      <div class="shipping-information">
+      <h6>Free Shipping</h6>
+      <p>Free Shipping On All Us Code</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-3">
+      <div class="payment">
+      <div class="row">
+      <div class="col-2">
+      <div class="travels-icon">
+      <i class="fa-solid fa-clock"></i>
+      </div>
+      </div>
+      <div class="col-10">
+      <div class="shipping-information">
+      <h6>Free Shipping</h6>
+      <p>Free Shipping On All Us Code</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-3">
+      <div class="payment">
+      <div class="row">
+      <div class="col-2">
+      <div class="travels-icon">
+      <i class="fa-solid fa-truck-moving"></i>
+      </div>
+      </div>
+      <div class="col-10">
+      <div class="shipping-information">
+      <h6>Free Shipping</h6>
+      <p>Free Shipping On All Us Code</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-3">
+      <div class="payment">
+      <div class="row">
+      <div class="col-2">
+      <div class="travels-icon">
+      <i class="fa-solid fa-truck-moving"></i>
+      </div>
+      </div>
+      <div class="col-10">
+      <div class="shipping-information">
+      <h6>Free Shipping</h6>
+      <p>Free Shipping On All Us Code</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      </button>
+      </div>
+      </section>
+      <section>
+         <div class="new_arrival">
+            <div class="container">
+               <div class="row">
+                  <div class="col-6">
+                     <div class="arival_head">
+                        <p><span class="arive_before">New</span> Arrivals</p>
+                     </div>
+                  </div>
+                  <div class="col-6">
+                     <div class="arival_btn">
+                        <a href="#">View More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="arival_section">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="aircraft">
+                        <div class="aircraft_img">
+                           <img src="assets/images/col_one.png">
+                        </div>
+                        <div class="aircraft-info">
+                           <div class="row">
+                                 <div class="col-md-8">
+                                    <div class="air_info">
+                                       <h6>Aircraft Air intake</h6>
+                                       <p>Free Shipping On All Us Code</p>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <div class="air_item">
+                                       <p>$99<i class="fa-solid fa-heart-circle-plus"></i></p>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                   <div class="col-md-4">
+                     <div class="aircraft">
+                        <div class="aircraft_img">
+                           <img src="assets/images/col_one.png">
+                        </div>
+                        <div class="aircraft-info">
+                           <div class="row">
+                                 <div class="col-md-8">
+                                    <div class="air_info">
+                                       <h6>Aircraft Air intake</h6>
+                                       <p>Free Shipping On All Us Code</p>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <div class="air_item">
+                                       <p>$99<i class="fa-solid fa-heart-circle-plus"></i></p>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                   <div class="col-md-4">
+                     <div class="aircraft">
+                        <div class="aircraft_img">
+                           <img src="assets/images/col_one.png">
+                        </div>
+                        <div class="aircraft-info">
+                           <div class="row">
+                                 <div class="col-md-8">
+                                    <div class="air_info">
+                                       <h6>Aircraft Air intake</h6>
+                                       <p>Free Shipping On All Us Code</p>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <div class="air_item">
+                                       <p>$99<i class="fa-solid fa-heart-circle-plus"></i></p>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+  <section>
+         <div class="new_arrival">
+            <div class="container">
+               <div class="row">
+                  <div class="col-6">
+                     <div class="arival_head">
+                        <p><span class="arive_before">New</span> Arrivals</p>
+                     </div>
+                  </div>
+                  <div class="col-6">
+                     <div class="arival_btn">
+                        <a href="#">View More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+<section>
+         <div class="arival_section">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="aircraft">
+                        <div class="aircraft_img">
+                           <img src="assets/images/col_one.png">
+                        </div>
+                        <div class="aircraft-info">
+                           <div class="row">
+                                 <div class="col-md-8">
+                                    <div class="air_info">
+                                       <h6>Aircraft Air intake</h6>
+                                       <p>Free Shipping On All Us Code</p>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <div class="air_item">
+                                       <p>$99<i class="fa-solid fa-heart-circle-plus"></i></p>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                   <div class="col-md-4">
+                     <div class="aircraft">
+                        <div class="aircraft_img">
+                           <img src="assets/images/col_one.png">
+                        </div>
+                        <div class="aircraft-info">
+                           <div class="row">
+                                 <div class="col-md-8">
+                                    <div class="air_info">
+                                       <h6>Aircraft Air intake</h6>
+                                       <p>Free Shipping On All Us Code</p>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <div class="air_item">
+                                       <p>$99<i class="fa-solid fa-heart-circle-plus"></i></p>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                   <div class="col-md-4">
+                     <div class="aircraft">
+                        <div class="aircraft_img">
+                           <img src="assets/images/col_one.png">
+                        </div>
+                        <div class="aircraft-info">
+                           <div class="row">
+                                 <div class="col-md-8">
+                                    <div class="air_info">
+                                       <h6>Aircraft Air intake</h6>
+                                       <p>Free Shipping On All Us Code</p>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <div class="air_item">
+                                       <p>$99<i class="fa-solid fa-heart-circle-plus"></i></p>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+ <section>
+         <div class="our_client">
+            <div class="container">
+               <div class="row">
+                     <div class="our_client_head">
+                        <p><span class="our_client_before">Over Client</span> Review</p>
+                     </div>
+               </div>
+            </div>
+         </div>
+      </section>
+<section>
+   <div class="our_review">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4">
+               <div class="our_review_img">
+                  <img src="assets/images/col_one.png">
+               <div class="our_review_background">
+               <img src="assets/images/col_one.png">
+               <h6>Courtney Henry</h6>   
+               <p>Sit Amet, Consectetur Adipiscing<br>Elit. Neque, Amet Non, Nib That Is ya<br>you Edotit</p>
+               <ul>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               </ul>
+               </div>           
+               </div>
+            </div>
+             <div class="col-md-4">
+               <div class="our_review_img">
+                  <img src="assets/images/col_one.png">
+               <div class="our_review_background">
+               <img src="assets/images/col_one.png">
+               <h6>Courtney Henry</h6>   
+               <p>Sit Amet, Consectetur Adipiscing<br>Elit. Neque, Amet Non, Nib That Is ya<br>you Edotit</p>
+               <ul>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               </ul>
+               </div>           
+               </div>
+            </div>
+             <div class="col-md-4">
+               <div class="our_review_img">
+                  <img src="assets/images/col_one.png">
+               <div class="our_review_background">
+               <img src="assets/images/col_one.png">
+               <h6>Courtney Henry</h6>   
+               <p>Sit Amet, Consectetur Adipiscing<br>Elit. Neque, Amet Non, Nib That Is ya<br>you Edotit</p>
+               <ul>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               <li><i class="fa-solid fa-star"></i></li>
+               </ul>
+               </div>           
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+<section>
+   <div class="faq_section">
+      <div class="container">
+         <div class="row">
+            <div class="faq_head">
+                <p><span>FAQ</span>s</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                 <div class="accordion-item">
+                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                       WHY DO YOU NEED AVIATION PARTS ??
+                     <div class="icons_plus">
+                        <i class="fa-solid fa-plus"></i>
+                     </div>
+                     </button>
+                   </h2>
+                   <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                     <div class="accordion-body">
+                       <strong>This is the first item's accordion body.</strong>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="accordion-item">
+                   <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                       WHAT DOES AVIATION PARTS COVER ??
+                       <div class="icons_plus">
+                        <i class="fa-solid fa-plus"></i>
+                        </div>
+                     </button>
+                   </h2>
+                   <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                     <div class="accordion-body">
+                       <strong>This is the second item's accordion body.</strong>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="accordion-item">
+                   <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                       IT IS BETTER TO PAY ANNUALIY AND MONTHLY ??
+                       <div class="icons_plus">
+                        <i class="fa-solid fa-plus"></i>
+                        </div>
+                     </button>
+                   </h2>
+                   <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                     <div class="accordion-body">
+                       <strong>This is the third item's accordion body.</strong>
+                     </div>
+                   </div>
+                 </div>
+                  <div class="accordion-item">
+                   <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                       DO NEED A CREDIT CHECK TO BUY AVIATION PARTS ??
+                       <div class="icons_plus">
+                        <i class="fa-solid fa-plus"></i>
+                        </div>
+                     </button>
+                   </h2>
+                   <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                     <div class="accordion-body">
+                       <strong>This is the third item's accordion body.</strong>
+                     </div>
+                   </div>
+                 </div>
+                  <div class="accordion-item">
+                   <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                       HOW DO I ESTIMATE MY MILEAGE ??
+                       <div class="icons_plus">
+                        <i class="fa-solid fa-plus"></i>
+                        </div>
+                     </button>
+                   </h2>
+                   <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                     <div class="accordion-body">
+                       <strong>This is the third item's accordion body.</strong>
+                     </div>
+                   </div>
+                 </div>
+                  <div class="accordion-item">
+                   <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                       HOW DO I WORK OUT MY AVIATIONVALUE ??
+                       <div class="icons_plus">
+                        <i class="fa-solid fa-plus"></i>
+                        </div>
+                     </button>
+                   </h2>
+                   <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                     <div class="accordion-body">
+                       <strong>This is the third item's accordion body.</strong>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<section>
+<div class="application_scan_section">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="application">
+                  <h4>Download Our Application<br>
+                  For More Fast</h4>
+                  <p>consectetur adipiscing elit. Volvtpat Elit Ev, laculis Tellus Consectetur<br>congue Semper Amet, Egestas. Eu fringilla Volvtpat Mattis Venenatis<br>Ultrices Vitae.</p>
+                  <div class="scan_btn">
+                     <a href="#">APP STORE</a>
+                     <a href="#">PLAY STORE</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="scan">
+                  <div class="scan-1">
+                     <img src="assets/images/mobile.png">
+                  </div>
+                  <div class="scan-2">
+                     <img class="scan_img" src="assets/images/scan.png"><br>
+                     <h3>Scan & Download</h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+</div>
+</section>
+<section>
+   <div class="footer_section">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="footer_heading">
+                  <h3>Join Our Newsletter</h3>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="footer_btn">
+                    <div class="input-group">
+                        <div class="form-outline">
+                           <input type="search" placeholder="Search Entire Store Here....." id="form1" class="form-control" />
+                        </div>
+                        <button type="button" class="btn btn-1">
+                        <i class="fas fa-search"></i>
+                        </button>
+                     </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer">
+            <div class="row">
+               <div class="col-md-3 col-12">
+                  <div class="footer_icon">
+                     <img src="assets/images/footer_logo.png">
+                     <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i>facebook</a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i>instagram</a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i>twitter</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-2 col-6">
+                  <div class="footer_explore footers">
+                     <h6>Explore</h6>
+                     <ul>
+                        <li>Home</li>
+                        <li>Shop</li>
+                        <li>Page</li>
+                        <li>Blog</li>
+                     </ul>
+                     
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="company footers">
+                     <h6>Company</h6>
+                     <ul>
+                        <li>Help Center</li>
+                        <li>About Us</li>
+                        <li>Productus</li>
+                        <li>Resources</li>
+                     </ul>
+                  </div>      
+               </div>
+               <div class="col-md-2 col-6">
+                  <div class="shop footers footers">
+                     <h6>Shop</h6>
+                     <ul>
+                        <li>New Arrivals</li>
+                        <li>Exchanges</li>
+                        <li>Parts Shop</li>
+                     </ul>
+                  </div>
+                  
+               </div>
+               <div class="col-md-2 col-6">
+                  <div class="Benifits footers">
+                     <h6>Benifits</h6>
+                     <ul>
+                        <li>Fast</li>
+                        <li>Simple</li>
+                        <li>Affordable</li>
+                        <li>Free Consulting</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer_address">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="map">
+                     <p><a href="#"><i class="fa-solid fa-location-dot"></i></a>1901 Thornridge Cir. Shiloh<br>Hawaii 81063</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="map">
+                     <p><a href="#"><i class="fa-solid fa-envelope"></i></a>Michael.Mitc@Example.Com</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="map">
+                     <p><a href="#"><i class="fa-solid fa-phone"></i></a>1234&nbsp;456&nbsp;789</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer_copyright">
+            <p>Copyright 2022 @ Theme Created By Aviation Parts All rights Reserved</p>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+
+      <!-- Optional JavaScript; choose one of the two! -->
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+         -->
+         <script type="text/javascript">
+            $(document).ready(function(){
+
+            $('.accordion-button').click(function() {
+    $('.icons_plus').toggle('1000');
+    $("i", this).toggleClass("fa-solid fa-plus fa-solid fa-minus");
+});
+});
+
+         </script>
+         <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+   </body>
+</html>

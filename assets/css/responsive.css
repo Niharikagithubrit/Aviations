@@ -1,0 +1,134 @@
+@media (max-width: 480px){
+.container {
+    width: 100%;
+}
+.Aviation_heading {
+    text-align: center;
+}
+.Aviation_heading p {
+    font-size: 12px;
+}
+.Aviation_account {
+    margin-top: 0px;
+    justify-content: center;
+}
+select#cars {
+    font-size: 12px;
+}
+.Aviation_account p {
+    font-size: 12px;
+}
+.Aviation_account i {
+    margin-right: 8px;
+    font-size: 10px;
+}
+.logo_section {
+    margin-top: 0px;
+}
+.logo {
+    text-align: center;
+    margin-top: 10px;
+}
+.logo img {
+    width: 43%;
+}
+.logo figure {
+    margin-bottom: 0px;
+}
+.shopping-icon {
+    justify-content: center;
+    margin-top: 10px;
+}
+.shopping-icon p {
+    margin-left: 10px;
+}
+.navbar-light .navbar-toggler {
+    border-color: initial;
+    font-size: 14px;
+}
+.contact-information {
+    display: none;
+}
+.carousel-caption {
+    top: 0px;
+    padding-left: 0px;
+}
+.carousel-caption h5 {
+    font-size: 14px;
+}
+.carousel-caption h1 {
+    font-size: 18px;
+}
+.carousel-caption p {
+    font-size: 12px;
+}
+a.btn.btn-3 {
+    font-size: 14px;
+    padding: 5px 6px;
+}
+.carousel-item {
+    height: auto;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+}
+.carousel-indicators {
+    margin-bottom: 6px;
+}
+.aircraft {
+    margin-bottom: 20px;
+}
+.our_review_img {
+    margin-bottom: 20px;
+}
+button.accordion-button.collapsed {
+    font-size: 10px;
+}
+.application_scan_section .container {
+    padding: 0px 15px;
+}
+.application {
+    padding-top: 10px;
+    margin-bottom: 21px;
+}
+.application p {
+    margin-bottom: 10px;
+}
+.application h4 {
+    font-size: 16px;
+}
+.scan_btn {
+    text-align: center;
+}
+.scan_btn a {
+    padding: 9px 6px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.scan-2 h3 {
+    font-size: 13px;
+    margin-top: 3px;
+}
+button.accordion-button {
+    font-size: 10px;
+}
+.map p {
+    justify-content: flex-start;
+    margin-bottom: 10px !important;
+}
+.footer_icon {
+    text-align: center;
+}
+/*.footer_explore.footers {
+    padding-left: 30px;
+}
+.shop.footers.footers {
+    padding-left: 30px;
+}*/
+.footers{
+    text-align: center;
+}
+
+}

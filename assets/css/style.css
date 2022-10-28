@@ -1,0 +1,522 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+}
+
+.header_section {
+  width: 100%;
+  background: #19274c;
+}
+
+.Aviation_heading {
+  margin-top: 10px;
+  color: white;
+}
+
+.Aviation_account {
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  justify-content: end;
+}
+
+.Aviation_account p {
+  margin-left: 20px;
+}
+
+.Aviation_account i {
+  margin-right: 11px;
+  font-size: 14px;
+}
+
+.logo_section {
+  margin-top: 37px;
+  width: 100%;
+  padding: 0px;
+}
+
+.logo img {
+  width: 65%;
+}
+
+p.myaccount {
+  border-right: 1px solid gray;
+}
+
+p.myaccount span {
+  margin-right: 20px;
+}
+
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3),
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+  width: 100%;
+}
+
+.input-group {
+  flex-wrap: inherit;
+}
+
+button.btn.btn-1 {
+  top: 5px;
+  background: #f3502f;
+  color: white;
+  position: absolute !important;
+  right: 11px;
+  padding: 0px 20px;
+  border-right: none;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.shopping-icon {
+  display: flex;
+  justify-content: end;
+}
+
+.shopping-icon p {
+  margin-left: 33px;
+}
+
+.shopping-icon i {
+  color: #f3502f;
+  font-size: 20px;
+}
+
+.shopping-icon span {
+  color: #cecece;
+  margin-left: 7px;
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: #f0f1f3;
+  border: none;
+  color: #eef2f3;
+}
+
+.navbar_section {
+  width: 100%;
+  background: #19274c;
+}
+
+button#dropdownMenuButton1 {
+  color: white;
+  background: #f3502f;
+}
+
+button#dropdownMenuButton1 i {
+  margin-right: 10px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  margin-left: 25px;
+}
+
+.navbar_section .navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, .55);
+  color: white;
+}
+
+.contact-information p {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.contact-information i {
+  margin-right: 10px;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 80px;
+  text-align: justify;
+  padding-left: 163px;
+}
+
+button.carousel-control-prev {
+  display: none;
+}
+
+button.carousel-control-next {
+  display: none;
+}
+
+.carousel-caption h5 {
+  color: #f3502f;
+}
+
+a.btn.btn-3 {
+  color: white;
+  background: #f3502f;
+  padding: .375rem 2.75rem;
+}
+
+.carousel-caption h1 {
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.Shipping {
+  width: 100%;
+  margin: 33px 0px;
+}
+
+.Shipping .container {
+  background: #f0f1f3;
+  border-radius: 7px;
+}
+
+.shipping-information p {
+  font-size: 11px;
+  color: #818493;
+}
+
+.travels-icon {
+  color: #f3502f;
+  margin-top: 14px;
+  font-size: 21px;
+}
+.payment {
+  padding: 20px 1px;
+  margin-left: 20px;
+}
+select#cars {
+    background: none;
+    border: navajowhite;
+    color: white;
+    margin-bottom: 15px;
+}
+.arival_btn {
+    float: right;
+}
+.arival_btn a {
+    color: #19274c;
+    text-decoration: none;
+    font-weight: bold;
+}
+.arival_head span {
+    color: #f35031;
+}
+.arival_head p {
+    color: #19274c;
+    font-weight: bold;
+}
+.arival_section {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.arival_section .container {
+    background: #f0f1f3;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+.aircraft_img img {
+    width: 100%;
+}
+.aircraft-info {
+    background: white;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.air_info p {
+    font-size: 12px;
+    color: #5b6073;
+}
+.air_item p {
+    margin-top: 5px;
+    font-size: 20px;
+}
+.air_item i {
+    color: red;
+    margin-left: 14px;
+}
+.aircraft_img img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.our_client_head span {
+    color: #f35031;
+}
+.our_client_head p {
+    color: #19274c;
+    font-weight: bold;
+}
+.our_review {
+    width: 100%;
+}
+.our_review_img img {
+    width: 100%;
+    height: 360px;
+    border-radius: 5px;
+}
+.our_review_img {
+    position: relative;
+}
+.our_review_background {
+    background: #ffffffd1;
+    /* content: ''; */
+    width: 89%;
+    position: absolute;
+    height: 175px;
+    left: 0px;
+    bottom: 0px;
+    margin: 18px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 20px 5px 5px;
+}
+.our_review_background h6 {
+    color: #ee6145;
+    font-weight: bold;
+}
+.our_review_background p {
+    font-size: 14px;
+    margin: 0px;
+    font-weight: bold;
+}
+.our_review_background ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.our_review_background li {
+    list-style-type: none;
+}
+.our_review_background li i {
+    color: #f79740;
+    font-size: 12px;
+    margin-right: 7px;
+}
+.our_review_background li:last-child i {
+    color: #e3c7af !important;
+}
+.our_review_background img {
+    margin-top: -65px;
+    background: white;
+    padding: 6px;
+    width: 69px;
+    height: 69px;
+    border-radius: 150px;
+}
+.faq_section {
+    width: 100%;
+    padding-top: 44px;
+}
+.faq_head span {
+    color: #f35031;
+}
+.faq_head {
+    padding-bottom: 20px;
+}
+.faq_head p {
+    color: #19274c;
+    font-weight: bold;
+}
+.faq_section .accordion-button::after {
+    background-image:none
+}
+.faq_section .accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+.faq_section .accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+    box-shadow: inherit !important;
+}
+.icons_plus {
+    position: absolute;
+    right: 23px;
+    display: block !important;
+}
+.faq_section .accordion-item {
+    border: 2px solid #fbd3cb;
+    MARGIN-BOTTOM: 20PX;
+    border-radius: 5PX;
+}
+.faq_section .accordion-button {
+    padding: 10PX;
+}
+.faq_section .accordion-button:focus {
+    border-color: none !important;
+}
+.faq_section button.accordion-button:hover {
+    background: #19274c;
+    color: white;
+}
+.faq_section .accordion-item:first-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.application_scan_section {
+    width: 100%;
+    margin: 43px 0px;
+}
+.application_scan_section .container {
+    background: #f0f1f3;
+    padding: 50px 91px;
+    border-radius: 7px;
+}
+.application h4 {
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.application p {
+    font-size: 12px;
+    color: #5c6174;
+}
+.application {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.scan_btn {
+    padding-top: 20px;
+}
+.scan_btn a {
+    color: white;
+    background: #f3502f;
+    text-decoration: none;
+    padding: 9px 13px;
+    margin-right: 20px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.scan {
+    display: flex;
+}
+.scan-1 img {
+    width: 100%;
+}
+.scan-2{
+    margin-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+}
+.scan-2 img {
+    width: 100%;
+}
+.scan-2 h3 {
+    color: #f3502f;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer_section {
+    width: 100%;
+    background: #19274c;
+    padding: 20px 0px;
+}
+.footer_heading {
+    text-align: center;
+}
+.footer_heading h3 {
+    color: white;
+}
+.footer_btn {
+    width: 70%;
+    margin-left: 55px;
+}
+.footer {
+    margin-top: 33px;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+}
+.footer_icon img {
+    margin-bottom: 15px;
+}
+.footer_icon ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.footer_icon li {
+    margin-bottom: 15px;
+}
+.footer_icon a {
+    text-decoration: none;
+    color: white;
+}
+.footer_icon a i {
+    margin: 0px 10px;
+}
+.footers h6 {
+    margin-bottom: 15px;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footers ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.footers li {
+    margin-bottom: 15px;
+    color: #e3e4e9;
+    font-size: 12px;
+}
+.footer_address {
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid gray;
+}
+.map p {
+    color: #e3e4e9;
+    font-size: 14px;
+    margin: 0px !important;
+    padding: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.map i {
+    color: #f3502f;
+    font-size: 23px;
+    background: white;
+    border-radius: 27px;
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    margin-right: 20px;
+}
+.footer_copyright {
+    text-align: center;
+    color: #c4c4c6;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.sticky + .content {
+  padding-top: 10px;
+}
